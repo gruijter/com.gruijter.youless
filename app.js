@@ -1,20 +1,20 @@
 /*
 Copyright 2017, 2018, Robin de Gruijter (gruijter@hotmail.com)
 
-This file is part of com.gruijter.enelogic.
+This file is part of nl.maikvanwel.youless.
 
-com.gruijter.enelogic is free software: you can redistribute it and/or modify
+nl.maikvanwel.youless is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-com.gruijter.enelogic is distributed in the hope that it will be useful,
+nl.maikvanwel.youless is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with com.gruijter.enelogic.  If not, see <http://www.gnu.org/licenses/>.
+along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 'use strict';
@@ -26,7 +26,7 @@ const Logger = require('./captureLogs.js');
 class MyApp extends Homey.App {
 
 	onInit() {
-		this.log('Enelogic App is running!');
+		this.log('Youless App is running!');
 		this.ledring = new Ledring();
 		this.logger = new Logger('log', 200);	// [logName] [, logLength]
 
@@ -39,13 +39,13 @@ class MyApp extends Homey.App {
 		});
 		Homey
 			.on('unload', () => {
-				this.log('app unload called');
-				// save logs to persistant storage
-				this.logger.saveLogs();
+			this.log('app unload called');
+			// save logs to persistant storage
+			this.logger.saveLogs();
 			})
 			.on('memwarn', () => {
 				this.log('memwarn!');
-			});
+		});
 		// do garbage collection every 10 minutes
 		this.intervalIdGc = setInterval(() => {
 			global.gc();
@@ -65,3 +65,5 @@ class MyApp extends Homey.App {
 }
 
 module.exports = MyApp;
+
+

@@ -1,8 +1,6 @@
-# Enelogic #
+# Youless #
 
-Homey app to integrate Enelogic P1 and YouLess LS110/LS120 energy meters.
-A direct connection over IP is used, so there is no dependency on the Enelogic
-cloud service.
+Homey app to integrate YouLess LS110/LS120 energy meters.
 
 ![image][energy-mobile-card-image]
 
@@ -17,7 +15,7 @@ The LS120 S0 driver provides logs and flow cards for the following data:
 - Totalized power meter (kWh, 10s updates)
 
 ### P1 Energy and Gas meter ###
-With the P1 connection on the LS120 or Enelogic you get the following extra's:
+With the P1 connection on the LS120 you get the following extra's:
 - All individual power meters (kWh, 10s updates)
 - Recent gas usage (m3, of the previous hour)
 - Gas meter (m3, 1 hour updates)
@@ -84,10 +82,8 @@ If you really like the app you can buy me a beer.
 Version changelog
 
 ```
-v2.2.0  2018.12.28 Fixes for LS110.
 v2.1.0  2018.11.24 Minor fixes for gas flow, pairing bug, login error, connection timeouts.
 v2.0.5  2018.07.08 Fix gas flow meter LS120. Password fix. Http optimizations.
-v2.0.4  2018.03.17 Fix crash no gas meter Enelogic P1.
 v2.0.3  2018.03.12 License info extended.
 v2.0.2  2018.01.29 Minor fix.
 v2.0.1  2018.01.19 Minor fixes, stable release.
@@ -99,7 +95,9 @@ v1.0.6  2017.05.28 small bug fix (error reading device). Code cleanup
 v1.0.4  2017.04.19 Added polling interval setting
 v1.0.3  2017.04.16 Compensate 0 production readings. JSON.parse bug fix
 v1.0.2  2017.03.22 Added support for YouLess LS120 (P1)
-v1.0.0  2017.02.18 Initial release
+v1.0.0  2017.06.07 App transfer from Maik van Wel. His LS-110 driver is kept for legacy support.
+Internal speech support is removed. Node modules updated. Added a new LS-110 driver and support for LS-120 (P1).
+
 ```
 [type 1]: https://www.vitens.nl/service/watermeter
 [forum]: https://community.athom.com/t/4235
