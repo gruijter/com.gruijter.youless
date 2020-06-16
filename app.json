@@ -35,7 +35,7 @@
     "small": "./assets/images/small.jpg"
   },
 
-  "category": [ ],
+  "category": [ "tools" ],
 
   "capabilities": {
     "meter_offPeak": {
