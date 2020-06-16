@@ -1,7 +1,7 @@
 /*
-Copyright 2017, 2018, Robin de Gruijter (gruijter@hotmail.com)
+Copyright 2017 - 2020, Robin de Gruijter (gruijter@hotmail.com)
 
-This file is part of nl.maikvanwel.youless.
+This file is part of youless.gruijter.com.
 
 nl.maikvanwel.youless is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

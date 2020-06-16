@@ -6,11 +6,10 @@
   },
 
   "description": {
-    "en": "Imports data from the YouLess energy meter",
-    "nl": "Leest data van de YouLess energie meter"
+    "en": "This app is deprecated. Please use the new Youless & Enelogic app."
   },
 
-  "version": "2.2.1",
+  "version": "2.2.2",
 	"sdk": 2,
   "compatibility": ">= 1.5",
   "author": {
@@ -36,7 +35,7 @@
     "small": "./assets/images/small.jpg"
   },
 
-  "category": ["energy", "appliances","tools" ],
+  "category": [ ],
 
   "capabilities": {
     "meter_offPeak": {
@@ -72,7 +71,8 @@
   },
   "drivers": [
     {
-      "id": "LS120",
+	  "id": "LS120",
+	  "deprecated": true,
       "name": {
         "en": "LS120 P1",
         "nl": "LS120 P1"

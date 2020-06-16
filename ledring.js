@@ -1,14 +1,14 @@
 /*
-Copyright 2017, 2018, Robin de Gruijter (gruijter@hotmail.com)
+Copyright 2017 - 2020, Robin de Gruijter (gruijter@hotmail.com)
 
-This file is part of nl.maikvanwel.youless.
+This file is part of youless.gruijter.com.
 
-nl.maikvanwel.youless is free software: you can redistribute it and/or modify
+youless.gruijter.com is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-nl.maikvanwel.youless is distributed in the hope that it will be useful,
+youless.gruijter.com is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.

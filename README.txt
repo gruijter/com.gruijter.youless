@@ -1,6 +1,4 @@
-# Youless #
-
-# ATTENTION - THIS APP HAS BEEN REPLACED WITH A NEW APP!! #
+ATTENTION - THIS APP HAS BEEN REPLACED WITH A NEW APP!!
 
 This app is not longer being maintained. All functionality of the Youless app has been moved to a new app.
 
